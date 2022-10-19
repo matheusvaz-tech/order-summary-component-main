@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  font-family: "Red Hat Display", sans-serif;
+
+  display: grid;
+  place-items: center;
+
+  background: hsl(225, 100%, 94%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.625rem;
+
+  border-radius: 0.75rem;
+
+  background: #fff;
+
+  width: 22rem;
+  padding: 0 2rem 1rem;
+
+  overflow-x: hidden;
+}
+
+h1,
+.title-and-subtitle > p {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(35, 35, 35);
+
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.title-and-subtitle > p {
+  font-size: 0.875rem;
+  color: slategrey;
+
+  letter-spacing: 0.04rem;
+}
+
+.plan {
+  width: 100%;
+  margin: 0 2rem;
+  padding: 0.75rem 1rem;
+
+  background: hsla(225, 100%, 94%, 0.349);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 0.5rem;
+}
+
+.plan > section {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.plan section > p {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.plan section p > span {
+  font-weight: 500;
+  color: slategrey;
+}
+
+.plan a {
+  font-size: 0.875rem;
+  color: #1e20cd;
+}
+
+button {
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 2rem;
+  width: 100%;
+
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+.primary-btn {
+  background: #1e20cd;
+  color: white;
+
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.primary-btn:hover {
+  background: #1417a2;
+}
+
+.secondary-btn {
+  border: none;
+  background: none;
+
+  color: crimson;
+}
